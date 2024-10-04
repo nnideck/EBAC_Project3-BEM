@@ -13,17 +13,17 @@
     grid-column-gap: 1%;
 
     .produto {
-       &__imagem { /* elemento */
+       &__imagem { 
         width: 100%;
     }
-       &__nome { /* elemento */
+       &__nome { 
         font-size: 1.2em;
         margin: 8px 0;
     }
-       &__descricao { /* elemento */
+       &__descricao { 
         color: gray;
     }
-     &--em-destaque { /* modificador */
+     &--em-destaque { 
         border: 2px solid gold;
         padding: 8px;
         background-color: #ffff42;
